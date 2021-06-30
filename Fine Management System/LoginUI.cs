@@ -21,5 +21,12 @@ namespace Fine_Management_System
         {
 
         }
+
+        private void LOGIN_Click(object sender, EventArgs e)
+        {
+            MainWindow logged = new MainWindow();
+            logged.Show();
+            this.Hide();
+        }
     }
 }

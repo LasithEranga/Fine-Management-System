@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Fine_Management_System
 {
-    public partial class LoginForm : Form
+    public partial class MainWindow : Form
     {
-        public LoginForm()
+        public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
