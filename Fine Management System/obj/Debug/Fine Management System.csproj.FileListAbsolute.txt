@@ -17,3 +17,14 @@ C:\Users\Lasith\Desktop\FMangement\Fine Management System\obj\Debug\Fine Managem
 C:\Users\Lasith\Desktop\FMangement\Fine Management System\obj\Debug\Fine Management System.exe
 C:\Users\Lasith\Desktop\FMangement\Fine Management System\obj\Debug\Fine Management System.pdb
 C:\Users\Lasith\Desktop\FMangement\Fine Management System\obj\Debug\Fine_Management_System.LoginForm.resources
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\bin\Debug\Fine Management System.exe.config
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\bin\Debug\Fine Management System.exe
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\bin\Debug\Fine Management System.pdb
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine Management System.csproj.AssemblyReference.cache
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine_Management_System.LoginForm.resources
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine_Management_System.Properties.Resources.resources
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine Management System.csproj.GenerateResource.cache
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine Management System.csproj.CoreCompileInputs.cache
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine Management System.exe
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine Management System.pdb
+C:\Users\Lasith\Desktop\Fine-Management-System-Lasith\Fine Management System\obj\Debug\Fine_Management_System.MainWindow.resources
