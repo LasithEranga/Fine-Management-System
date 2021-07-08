@@ -41,8 +41,7 @@ namespace Fine_Management_System
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.windowPanel = new System.Windows.Forms.Panel();
             this.settingsPanel = new System.Windows.Forms.Panel();
-            this.usersPanel = new System.Windows.Forms.Panel();
-            this.reportPanel = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.chart = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -65,6 +64,7 @@ namespace Fine_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.windowPanel.SuspendLayout();
+            this.settingsPanel.SuspendLayout();
             this.chart.SuspendLayout();
             this.home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -177,8 +177,6 @@ namespace Fine_Management_System
             // windowPanel
             // 
             this.windowPanel.Controls.Add(this.settingsPanel);
-            this.windowPanel.Controls.Add(this.usersPanel);
-            this.windowPanel.Controls.Add(this.reportPanel);
             this.windowPanel.Controls.Add(this.chart);
             this.windowPanel.Controls.Add(this.home);
             this.windowPanel.Location = new System.Drawing.Point(70, 36);
@@ -188,24 +186,19 @@ namespace Fine_Management_System
             // 
             // settingsPanel
             // 
-            this.settingsPanel.Location = new System.Drawing.Point(140, 402);
+            this.settingsPanel.Controls.Add(this.panel1);
+            this.settingsPanel.Location = new System.Drawing.Point(31, 91);
             this.settingsPanel.Name = "settingsPanel";
-            this.settingsPanel.Size = new System.Drawing.Size(200, 100);
+            this.settingsPanel.Size = new System.Drawing.Size(525, 358);
             this.settingsPanel.TabIndex = 6;
             // 
-            // usersPanel
+            // panel1
             // 
-            this.usersPanel.Location = new System.Drawing.Point(512, 402);
-            this.usersPanel.Name = "usersPanel";
-            this.usersPanel.Size = new System.Drawing.Size(200, 100);
-            this.usersPanel.TabIndex = 5;
-            // 
-            // reportPanel
-            // 
-            this.reportPanel.Location = new System.Drawing.Point(494, 58);
-            this.reportPanel.Name = "reportPanel";
-            this.reportPanel.Size = new System.Drawing.Size(200, 100);
-            this.reportPanel.TabIndex = 4;
+            this.panel1.BackgroundImage = global::Fine_Management_System.Properties.Resources.Group_21;
+            this.panel1.Location = new System.Drawing.Point(33, 29);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(280, 143);
+            this.panel1.TabIndex = 0;
             // 
             // chart
             // 
@@ -215,9 +208,9 @@ namespace Fine_Management_System
             this.chart.Controls.Add(this.button4);
             this.chart.Controls.Add(this.button3);
             this.chart.Controls.Add(this.button2);
-            this.chart.Location = new System.Drawing.Point(31, 191);
+            this.chart.Location = new System.Drawing.Point(115, 13);
             this.chart.Name = "chart";
-            this.chart.Size = new System.Drawing.Size(391, 100);
+            this.chart.Size = new System.Drawing.Size(66, 36);
             this.chart.TabIndex = 0;
             // 
             // button6
@@ -274,7 +267,7 @@ namespace Fine_Management_System
             this.home.Controls.Add(this.button1);
             this.home.Location = new System.Drawing.Point(19, 13);
             this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(270, 100);
+            this.home.Size = new System.Drawing.Size(69, 41);
             this.home.TabIndex = 3;
             // 
             // button9
@@ -372,6 +365,7 @@ namespace Fine_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.windowPanel.ResumeLayout(false);
+            this.settingsPanel.ResumeLayout(false);
             this.chart.ResumeLayout(false);
             this.home.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -408,7 +402,6 @@ namespace Fine_Management_System
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Panel settingsPanel;
-        private System.Windows.Forms.Panel usersPanel;
-        private System.Windows.Forms.Panel reportPanel;
+        private System.Windows.Forms.Panel panel1;
     }
 }
