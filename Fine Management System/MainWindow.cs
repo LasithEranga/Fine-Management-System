@@ -9,10 +9,10 @@ namespace Fine_Management_System
         {
             InitializeComponent();
             home.SetBounds(0,0, 894, 552);
-            home.Hide();
+            home.Show();
             chart.Hide();
-            settingsPanel.SetBounds(0, 0, 894, 552);
-            settingsPanel.Show();
+           // settingsPanel.SetBounds(0, 0, 894, 552);
+           // settingsPanel.Show();
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)

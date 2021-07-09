@@ -30,9 +30,9 @@ namespace Fine_Management_System
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -44,6 +44,7 @@ namespace Fine_Management_System
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.windowPanel = new System.Windows.Forms.Panel();
             this.settingsPanel = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.usersPanel = new System.Windows.Forms.Panel();
             this.reportPanel = new System.Windows.Forms.Panel();
             this.chart = new System.Windows.Forms.Panel();
@@ -53,15 +54,14 @@ namespace Fine_Management_System
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.home = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -70,13 +70,13 @@ namespace Fine_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.windowPanel.SuspendLayout();
+            this.settingsPanel.SuspendLayout();
             this.chart.SuspendLayout();
             this.home.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox2
@@ -85,7 +85,7 @@ namespace Fine_Management_System
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Enabled = false;
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            this.textBox2.Location = new System.Drawing.Point(741, 9);
+            this.textBox2.Location = new System.Drawing.Point(818, 14);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(79, 13);
@@ -98,7 +98,7 @@ namespace Fine_Management_System
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Enabled = false;
             this.textBox1.ForeColor = System.Drawing.Color.Transparent;
-            this.textBox1.Location = new System.Drawing.Point(11, 9);
+            this.textBox1.Location = new System.Drawing.Point(32, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(214, 13);
@@ -113,15 +113,15 @@ namespace Fine_Management_System
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.pictureBox4);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Location = new System.Drawing.Point(-1, 33);
+            this.panel2.Location = new System.Drawing.Point(3, 36);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(65, 564);
+            this.panel2.Size = new System.Drawing.Size(61, 626);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(13, 514);
+            this.pictureBox6.Location = new System.Drawing.Point(13, 567);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(37, 38);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -183,6 +183,7 @@ namespace Fine_Management_System
             // 
             // windowPanel
             // 
+            this.windowPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(21)))), ((int)(((byte)(25)))));
             this.windowPanel.Controls.Add(this.settingsPanel);
             this.windowPanel.Controls.Add(this.usersPanel);
             this.windowPanel.Controls.Add(this.reportPanel);
@@ -190,26 +191,36 @@ namespace Fine_Management_System
             this.windowPanel.Controls.Add(this.home);
             this.windowPanel.Location = new System.Drawing.Point(70, 36);
             this.windowPanel.Name = "windowPanel";
-            this.windowPanel.Size = new System.Drawing.Size(894, 552);
+            this.windowPanel.Size = new System.Drawing.Size(930, 627);
             this.windowPanel.TabIndex = 2;
             // 
             // settingsPanel
             // 
-            this.settingsPanel.Location = new System.Drawing.Point(777, 310);
+            this.settingsPanel.Controls.Add(this.panel1);
+            this.settingsPanel.Location = new System.Drawing.Point(115, 321);
             this.settingsPanel.Name = "settingsPanel";
-            this.settingsPanel.Size = new System.Drawing.Size(70, 33);
+            this.settingsPanel.Size = new System.Drawing.Size(282, 213);
             this.settingsPanel.TabIndex = 6;
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::Fine_Management_System.Properties.Resources.Group_211;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Location = new System.Drawing.Point(32, 32);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(134, 84);
+            this.panel1.TabIndex = 0;
             // 
             // usersPanel
             // 
-            this.usersPanel.Location = new System.Drawing.Point(776, 239);
+            this.usersPanel.Location = new System.Drawing.Point(351, 256);
             this.usersPanel.Name = "usersPanel";
             this.usersPanel.Size = new System.Drawing.Size(89, 48);
             this.usersPanel.TabIndex = 5;
             // 
             // reportPanel
             // 
-            this.reportPanel.Location = new System.Drawing.Point(685, 13);
+            this.reportPanel.Location = new System.Drawing.Point(276, 67);
             this.reportPanel.Name = "reportPanel";
             this.reportPanel.Size = new System.Drawing.Size(200, 100);
             this.reportPanel.TabIndex = 4;
@@ -222,7 +233,7 @@ namespace Fine_Management_System
             this.chart.Controls.Add(this.button4);
             this.chart.Controls.Add(this.button3);
             this.chart.Controls.Add(this.button2);
-            this.chart.Location = new System.Drawing.Point(776, 133);
+            this.chart.Location = new System.Drawing.Point(536, 69);
             this.chart.Name = "chart";
             this.chart.Size = new System.Drawing.Size(102, 100);
             this.chart.TabIndex = 0;
@@ -274,7 +285,7 @@ namespace Fine_Management_System
             // 
             // home
             // 
-            this.home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
             this.home.Controls.Add(this.chart1);
             this.home.Controls.Add(this.button9);
             this.home.Controls.Add(this.button8);
@@ -282,8 +293,24 @@ namespace Fine_Management_System
             this.home.Controls.Add(this.button1);
             this.home.Location = new System.Drawing.Point(19, 13);
             this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(582, 398);
+            this.home.Size = new System.Drawing.Size(86, 41);
             this.home.TabIndex = 3;
+            // 
+            // chart1
+            // 
+            chartArea9.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea9);
+            legend9.Name = "Legend1";
+            this.chart1.Legends.Add(legend9);
+            this.chart1.Location = new System.Drawing.Point(201, 43);
+            this.chart1.Name = "chart1";
+            series9.ChartArea = "ChartArea1";
+            series9.Legend = "Legend1";
+            series9.Name = "Series1";
+            this.chart1.Series.Add(series9);
+            this.chart1.Size = new System.Drawing.Size(300, 300);
+            this.chart1.TabIndex = 5;
+            this.chart1.Text = "chart1";
             // 
             // button9
             // 
@@ -324,7 +351,7 @@ namespace Fine_Management_System
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(846, 17);
+            this.pictureBox8.Location = new System.Drawing.Point(921, 17);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(26, 10);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -333,27 +360,17 @@ namespace Fine_Management_System
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(708, 6);
+            this.pictureBox7.Location = new System.Drawing.Point(773, 6);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(26, 24);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox7.TabIndex = 8;
             this.pictureBox7.TabStop = false;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(892, 7);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(25, 22);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox9.TabIndex = 11;
-            this.pictureBox9.TabStop = false;
-            // 
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(934, 8);
+            this.pictureBox10.Location = new System.Drawing.Point(968, 8);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(21, 19);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -361,34 +378,17 @@ namespace Fine_Management_System
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
-            // chart1
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(201, 43);
-            this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(300, 300);
-            this.chart1.TabIndex = 5;
-            this.chart1.Text = "chart1";
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(21)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(976, 597);
+            this.ClientSize = new System.Drawing.Size(1010, 674);
             this.ControlBox = false;
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.windowPanel);
             this.Controls.Add(this.panel2);
@@ -406,13 +406,13 @@ namespace Fine_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.windowPanel.ResumeLayout(false);
+            this.settingsPanel.ResumeLayout(false);
             this.chart.ResumeLayout(false);
             this.home.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -443,10 +443,10 @@ namespace Fine_Management_System
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Panel settingsPanel;
         private System.Windows.Forms.Panel usersPanel;
         private System.Windows.Forms.Panel reportPanel;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
