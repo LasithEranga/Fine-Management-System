@@ -195,21 +195,21 @@ namespace Fine_Management_System
             // 
             // settingsPanel
             // 
-            this.settingsPanel.Location = new System.Drawing.Point(140, 402);
+            this.settingsPanel.Location = new System.Drawing.Point(777, 310);
             this.settingsPanel.Name = "settingsPanel";
-            this.settingsPanel.Size = new System.Drawing.Size(200, 100);
+            this.settingsPanel.Size = new System.Drawing.Size(70, 33);
             this.settingsPanel.TabIndex = 6;
             // 
             // usersPanel
             // 
-            this.usersPanel.Location = new System.Drawing.Point(512, 402);
+            this.usersPanel.Location = new System.Drawing.Point(776, 239);
             this.usersPanel.Name = "usersPanel";
-            this.usersPanel.Size = new System.Drawing.Size(200, 100);
+            this.usersPanel.Size = new System.Drawing.Size(89, 48);
             this.usersPanel.TabIndex = 5;
             // 
             // reportPanel
             // 
-            this.reportPanel.Location = new System.Drawing.Point(494, 58);
+            this.reportPanel.Location = new System.Drawing.Point(685, 13);
             this.reportPanel.Name = "reportPanel";
             this.reportPanel.Size = new System.Drawing.Size(200, 100);
             this.reportPanel.TabIndex = 4;
@@ -222,9 +222,9 @@ namespace Fine_Management_System
             this.chart.Controls.Add(this.button4);
             this.chart.Controls.Add(this.button3);
             this.chart.Controls.Add(this.button2);
-            this.chart.Location = new System.Drawing.Point(31, 191);
+            this.chart.Location = new System.Drawing.Point(776, 133);
             this.chart.Name = "chart";
-            this.chart.Size = new System.Drawing.Size(391, 100);
+            this.chart.Size = new System.Drawing.Size(102, 100);
             this.chart.TabIndex = 0;
             // 
             // button6
@@ -282,7 +282,7 @@ namespace Fine_Management_System
             this.home.Controls.Add(this.button1);
             this.home.Location = new System.Drawing.Point(19, 13);
             this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(444, 172);
+            this.home.Size = new System.Drawing.Size(582, 398);
             this.home.TabIndex = 3;
             // 
             // button9
@@ -333,7 +333,6 @@ namespace Fine_Management_System
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(708, 6);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(26, 24);
@@ -368,13 +367,13 @@ namespace Fine_Management_System
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(179, 12);
+            this.chart1.Location = new System.Drawing.Point(201, 43);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(224, 141);
+            this.chart1.Size = new System.Drawing.Size(300, 300);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
             // 
