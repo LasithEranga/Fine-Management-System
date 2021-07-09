@@ -41,3 +41,16 @@ C:\Users\Lasith\Pictures\New folder\Fine Management System\obj\Debug\Fine Manage
 C:\Users\Lasith\Pictures\New folder\Fine Management System\obj\Debug\Fine Management System.pdb
 C:\Users\Lasith\Pictures\New folder\Fine Management System\bin\Debug\Control.Draggable.dll
 C:\Users\Lasith\Pictures\New folder\Fine Management System\obj\Debug\Fine Management System.csproj.CopyComplete
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\bin\Debug\Fine Management System.exe.config
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\bin\Debug\Fine Management System.exe
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\bin\Debug\Fine Management System.pdb
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\bin\Debug\Control.Draggable.dll
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine_Management_System.MainWindow.resources
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine_Management_System.LoginForm.resources
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine_Management_System.Properties.Resources.resources
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.csproj.GenerateResource.cache
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.csproj.CoreCompileInputs.cache
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.csproj.CopyComplete
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.exe
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.pdb
+C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.csproj.AssemblyReference.cache
