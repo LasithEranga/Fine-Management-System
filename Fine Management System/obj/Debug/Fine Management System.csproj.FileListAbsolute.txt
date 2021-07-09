@@ -54,3 +54,16 @@ C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\De
 C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.exe
 C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.pdb
 C:\Users\Lasith\Documents\Group Reports GroupX\FMS\Fine Management System\obj\Debug\Fine Management System.csproj.AssemblyReference.cache
+C:\Users\Sineru\Pictures\Github\Fine Management System\bin\Debug\Fine Management System.exe.config
+C:\Users\Sineru\Pictures\Github\Fine Management System\bin\Debug\Fine Management System.exe
+C:\Users\Sineru\Pictures\Github\Fine Management System\bin\Debug\Fine Management System.pdb
+C:\Users\Sineru\Pictures\Github\Fine Management System\bin\Debug\Control.Draggable.dll
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine Management System.csprojAssemblyReference.cache
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine_Management_System.MainWindow.resources
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine_Management_System.LoginForm.resources
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine_Management_System.Properties.Resources.resources
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine Management System.csproj.GenerateResource.cache
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine Management System.csproj.CoreCompileInputs.cache
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine Management System.csproj.CopyComplete
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine Management System.exe
+C:\Users\Sineru\Pictures\Github\Fine Management System\obj\Debug\Fine Management System.pdb

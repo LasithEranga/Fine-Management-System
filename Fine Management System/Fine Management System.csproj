@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -100,6 +101,7 @@
     <Content Include="MainWindowAssests\report.png" />
     <Content Include="MainWindowAssests\settings.png" />
     <Content Include="MainWindowAssests\users.png" />
+    <None Include="Resources\Group 211.png" />
     <None Include="Resources\Group 21.png" />
     <None Include="Resources\homeBlue.png" />
     <None Include="Resources\fineX1.png" />
