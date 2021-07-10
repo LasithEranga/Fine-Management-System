@@ -1,4 +1,6 @@
 ﻿
+using System.Drawing;
+
 namespace Fine_Management_System
 {
     partial class MainWindow
@@ -30,18 +32,18 @@ namespace Fine_Management_System
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -51,12 +53,6 @@ namespace Fine_Management_System
             this.chartBtn = new System.Windows.Forms.PictureBox();
             this.homeBtn = new System.Windows.Forms.PictureBox();
             this.windowPanel = new System.Windows.Forms.Panel();
-            this.settingsPanel = new System.Windows.Forms.Panel();
-            this.help = new System.Windows.Forms.Panel();
-            this.theme = new System.Windows.Forms.Panel();
-            this.notification = new System.Windows.Forms.Panel();
-            this.language = new System.Windows.Forms.Panel();
-            this.user = new System.Windows.Forms.Panel();
             this.homePanel = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
@@ -80,6 +76,12 @@ namespace Fine_Management_System
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.settingsPanel = new System.Windows.Forms.Panel();
+            this.help = new System.Windows.Forms.Panel();
+            this.theme = new System.Windows.Forms.Panel();
+            this.notification = new System.Windows.Forms.Panel();
+            this.language = new System.Windows.Forms.Panel();
+            this.user = new System.Windows.Forms.Panel();
             this.reportPanel = new System.Windows.Forms.Panel();
             this.chartPanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
@@ -100,7 +102,6 @@ namespace Fine_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.chartBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeBtn)).BeginInit();
             this.windowPanel.SuspendLayout();
-            this.settingsPanel.SuspendLayout();
             this.homePanel.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart4)).BeginInit();
@@ -114,6 +115,7 @@ namespace Fine_Management_System
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.settingsPanel.SuspendLayout();
             this.chartPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -216,71 +218,13 @@ namespace Fine_Management_System
             this.windowPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(21)))), ((int)(((byte)(25)))));
             this.windowPanel.Controls.Add(this.settingsPanel);
             this.windowPanel.Controls.Add(this.homePanel);
+            this.windowPanel.Controls.Add(this.usersPanel);
             this.windowPanel.Controls.Add(this.reportPanel);
             this.windowPanel.Controls.Add(this.chartPanel);
-            this.windowPanel.Controls.Add(this.usersPanel);
             this.windowPanel.Location = new System.Drawing.Point(70, 36);
             this.windowPanel.Name = "windowPanel";
             this.windowPanel.Size = new System.Drawing.Size(930, 627);
             this.windowPanel.TabIndex = 2;
-            // 
-            // settingsPanel
-            // 
-            this.settingsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            this.settingsPanel.Controls.Add(this.help);
-            this.settingsPanel.Controls.Add(this.theme);
-            this.settingsPanel.Controls.Add(this.notification);
-            this.settingsPanel.Controls.Add(this.language);
-            this.settingsPanel.Controls.Add(this.user);
-            this.settingsPanel.Location = new System.Drawing.Point(32, 324);
-            this.settingsPanel.Name = "settingsPanel";
-            this.settingsPanel.Size = new System.Drawing.Size(516, 264);
-            this.settingsPanel.TabIndex = 7;
-            // 
-            // help
-            // 
-            this.help.BackgroundImage = global::Fine_Management_System.Properties.Resources.help;
-            this.help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.help.Location = new System.Drawing.Point(363, 279);
-            this.help.Name = "help";
-            this.help.Size = new System.Drawing.Size(212, 170);
-            this.help.TabIndex = 4;
-            // 
-            // theme
-            // 
-            this.theme.BackgroundImage = global::Fine_Management_System.Properties.Resources.theme;
-            this.theme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.theme.Location = new System.Drawing.Point(55, 279);
-            this.theme.Name = "theme";
-            this.theme.Size = new System.Drawing.Size(212, 170);
-            this.theme.TabIndex = 3;
-            // 
-            // notification
-            // 
-            this.notification.BackgroundImage = global::Fine_Management_System.Properties.Resources.notification;
-            this.notification.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.notification.Location = new System.Drawing.Point(662, 56);
-            this.notification.Name = "notification";
-            this.notification.Size = new System.Drawing.Size(212, 170);
-            this.notification.TabIndex = 2;
-            // 
-            // language
-            // 
-            this.language.BackgroundImage = global::Fine_Management_System.Properties.Resources.language;
-            this.language.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.language.Location = new System.Drawing.Point(363, 56);
-            this.language.Name = "language";
-            this.language.Size = new System.Drawing.Size(212, 170);
-            this.language.TabIndex = 1;
-            // 
-            // user
-            // 
-            this.user.BackgroundImage = global::Fine_Management_System.Properties.Resources.user;
-            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.user.Location = new System.Drawing.Point(55, 56);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(212, 170);
-            this.user.TabIndex = 0;
             // 
             // homePanel
             // 
@@ -295,7 +239,7 @@ namespace Fine_Management_System
             this.homePanel.Controls.Add(this.panel3);
             this.homePanel.Location = new System.Drawing.Point(19, 13);
             this.homePanel.Name = "homePanel";
-            this.homePanel.Size = new System.Drawing.Size(507, 302);
+            this.homePanel.Size = new System.Drawing.Size(498, 263);
             this.homePanel.TabIndex = 3;
             // 
             // panel10
@@ -342,26 +286,36 @@ namespace Fine_Management_System
             this.chart4.BackImageTransparentColor = System.Drawing.Color.White;
             this.chart4.BackSecondaryColor = System.Drawing.Color.White;
             this.chart4.BorderlineColor = System.Drawing.Color.Black;
-            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            chartArea1.BorderColor = System.Drawing.Color.White;
-            chartArea1.Name = "ChartArea1";
-            this.chart4.ChartAreas.Add(chartArea1);
-            legend1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            legend1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            legend1.Name = "Legend1";
-            this.chart4.Legends.Add(legend1);
+            chartArea9.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea9.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea9.AxisX2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea9.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea9.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea9.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea9.AxisY2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea9.BorderColor = System.Drawing.Color.White;
+            chartArea9.Name = "ChartArea1";
+            this.chart4.ChartAreas.Add(chartArea9);
+            legend9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            legend9.Enabled = false;
+            legend9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            legend9.Name = "Legend1";
+            this.chart4.Legends.Add(legend9);
             this.chart4.Location = new System.Drawing.Point(10, 54);
             this.chart4.Name = "chart4";
             this.chart4.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart4.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(218)))), ((int)(((byte)(72)))))};
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Color = System.Drawing.Color.Lime;
-            series1.LabelForeColor = System.Drawing.Color.White;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart4.Series.Add(series1);
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series9.Color = System.Drawing.Color.Lime;
+            series9.LabelForeColor = System.Drawing.Color.White;
+            series9.Legend = "Legend1";
+            series9.Name = "Series1";
+            series9.YValuesPerPoint = 2;
+            this.chart4.Series.Add(series9);
             this.chart4.Size = new System.Drawing.Size(233, 102);
             this.chart4.TabIndex = 7;
             this.chart4.Text = "chart4";
@@ -417,26 +371,32 @@ namespace Fine_Management_System
             this.chart3.BackImageTransparentColor = System.Drawing.Color.White;
             this.chart3.BackSecondaryColor = System.Drawing.Color.White;
             this.chart3.BorderlineColor = System.Drawing.Color.Black;
-            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            chartArea2.BorderColor = System.Drawing.Color.White;
-            chartArea2.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea2);
-            legend2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            legend2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            legend2.Name = "Legend1";
-            this.chart3.Legends.Add(legend2);
+            chartArea10.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea10.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea10.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea10.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea10.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea10.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea10.BorderColor = System.Drawing.Color.White;
+            chartArea10.Name = "ChartArea1";
+            this.chart3.ChartAreas.Add(chartArea10);
+            legend10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            legend10.Enabled = false;
+            legend10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            legend10.Name = "Legend1";
+            this.chart3.Legends.Add(legend10);
             this.chart3.Location = new System.Drawing.Point(10, 6);
             this.chart3.Name = "chart3";
             this.chart3.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart3.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(218)))), ((int)(((byte)(72)))))};
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Color = System.Drawing.Color.Lime;
-            series2.LabelForeColor = System.Drawing.Color.White;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart3.Series.Add(series2);
+            series10.ChartArea = "ChartArea1";
+            series10.Color = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            series10.LabelForeColor = System.Drawing.Color.White;
+            series10.Legend = "Legend1";
+            series10.Name = "Series1";
+            this.chart3.Series.Add(series10);
             this.chart3.Size = new System.Drawing.Size(326, 150);
             this.chart3.TabIndex = 6;
             this.chart3.Text = "chart3";
@@ -453,17 +413,21 @@ namespace Fine_Management_System
             // 
             // chart2
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart2.Legends.Add(legend3);
+            this.chart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea11.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea11);
+            legend11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            legend11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            legend11.Name = "Legend1";
+            this.chart2.Legends.Add(legend11);
             this.chart2.Location = new System.Drawing.Point(10, 3);
             this.chart2.Name = "chart2";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart2.Series.Add(series3);
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series11.Legend = "Legend1";
+            series11.Name = "Series1";
+            this.chart2.Series.Add(series11);
             this.chart2.Size = new System.Drawing.Size(233, 190);
             this.chart2.TabIndex = 0;
             this.chart2.Text = "chart2";
@@ -486,26 +450,42 @@ namespace Fine_Management_System
             this.chart1.BackImageTransparentColor = System.Drawing.Color.White;
             this.chart1.BackSecondaryColor = System.Drawing.Color.White;
             this.chart1.BorderlineColor = System.Drawing.Color.Black;
-            chartArea4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            chartArea4.BorderColor = System.Drawing.Color.White;
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            legend4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            chartArea12.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisX.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisX2.InterlacedColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisX2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisX2.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisY2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisY2.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.AxisY2.TitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            chartArea12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea12.BorderColor = System.Drawing.Color.White;
+            chartArea12.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea12);
+            legend12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            legend12.Enabled = false;
+            legend12.ForeColor = System.Drawing.Color.WhiteSmoke;
+            legend12.Name = "Legend1";
+            this.chart1.Legends.Add(legend12);
             this.chart1.Location = new System.Drawing.Point(12, 10);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart1.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(218)))), ((int)(((byte)(72)))))};
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Color = System.Drawing.Color.Lime;
-            series4.LabelForeColor = System.Drawing.Color.White;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chart1.Series.Add(series4);
+            series12.ChartArea = "ChartArea1";
+            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series12.Color = System.Drawing.Color.Lime;
+            series12.LabelForeColor = System.Drawing.Color.White;
+            series12.Legend = "Legend1";
+            series12.MarkerBorderColor = System.Drawing.Color.Lime;
+            series12.MarkerColor = System.Drawing.Color.White;
+            series12.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
+            series12.Name = "Series1";
+            this.chart1.Series.Add(series12);
             this.chart1.Size = new System.Drawing.Size(537, 183);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
@@ -615,9 +595,67 @@ namespace Fine_Management_System
             this.label5.TabIndex = 3;
             this.label5.Text = "65465";
             // 
+            // settingsPanel
+            // 
+            this.settingsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            this.settingsPanel.Controls.Add(this.help);
+            this.settingsPanel.Controls.Add(this.theme);
+            this.settingsPanel.Controls.Add(this.notification);
+            this.settingsPanel.Controls.Add(this.language);
+            this.settingsPanel.Controls.Add(this.user);
+            this.settingsPanel.Location = new System.Drawing.Point(72, 402);
+            this.settingsPanel.Name = "settingsPanel";
+            this.settingsPanel.Size = new System.Drawing.Size(94, 75);
+            this.settingsPanel.TabIndex = 7;
+            // 
+            // help
+            // 
+            this.help.BackgroundImage = global::Fine_Management_System.Properties.Resources.help;
+            this.help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.help.Location = new System.Drawing.Point(363, 279);
+            this.help.Name = "help";
+            this.help.Size = new System.Drawing.Size(212, 170);
+            this.help.TabIndex = 4;
+            // 
+            // theme
+            // 
+            this.theme.BackgroundImage = global::Fine_Management_System.Properties.Resources.theme;
+            this.theme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.theme.Location = new System.Drawing.Point(55, 279);
+            this.theme.Name = "theme";
+            this.theme.Size = new System.Drawing.Size(212, 170);
+            this.theme.TabIndex = 3;
+            // 
+            // notification
+            // 
+            this.notification.BackgroundImage = global::Fine_Management_System.Properties.Resources.notification;
+            this.notification.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.notification.Location = new System.Drawing.Point(662, 56);
+            this.notification.Name = "notification";
+            this.notification.Size = new System.Drawing.Size(212, 170);
+            this.notification.TabIndex = 2;
+            // 
+            // language
+            // 
+            this.language.BackgroundImage = global::Fine_Management_System.Properties.Resources.language;
+            this.language.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.language.Location = new System.Drawing.Point(363, 56);
+            this.language.Name = "language";
+            this.language.Size = new System.Drawing.Size(212, 170);
+            this.language.TabIndex = 1;
+            // 
+            // user
+            // 
+            this.user.BackgroundImage = global::Fine_Management_System.Properties.Resources.user;
+            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.user.Location = new System.Drawing.Point(55, 56);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(212, 170);
+            this.user.TabIndex = 0;
+            // 
             // reportPanel
             // 
-            this.reportPanel.Location = new System.Drawing.Point(359, 464);
+            this.reportPanel.Location = new System.Drawing.Point(211, 428);
             this.reportPanel.Name = "reportPanel";
             this.reportPanel.Size = new System.Drawing.Size(117, 56);
             this.reportPanel.TabIndex = 4;
@@ -630,7 +668,7 @@ namespace Fine_Management_System
             this.chartPanel.Controls.Add(this.button4);
             this.chartPanel.Controls.Add(this.button3);
             this.chartPanel.Controls.Add(this.button2);
-            this.chartPanel.Location = new System.Drawing.Point(487, 370);
+            this.chartPanel.Location = new System.Drawing.Point(368, 428);
             this.chartPanel.Name = "chartPanel";
             this.chartPanel.Size = new System.Drawing.Size(96, 49);
             this.chartPanel.TabIndex = 0;
@@ -682,7 +720,7 @@ namespace Fine_Management_System
             // 
             // usersPanel
             // 
-            this.usersPanel.Location = new System.Drawing.Point(586, 472);
+            this.usersPanel.Location = new System.Drawing.Point(505, 414);
             this.usersPanel.Name = "usersPanel";
             this.usersPanel.Size = new System.Drawing.Size(89, 48);
             this.usersPanel.TabIndex = 5;
@@ -757,7 +795,6 @@ namespace Fine_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.chartBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeBtn)).EndInit();
             this.windowPanel.ResumeLayout(false);
-            this.settingsPanel.ResumeLayout(false);
             this.homePanel.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
@@ -776,6 +813,7 @@ namespace Fine_Management_System
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.settingsPanel.ResumeLayout(false);
             this.chartPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

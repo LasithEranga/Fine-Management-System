@@ -7,7 +7,19 @@ namespace Fine_Management_System
     {
         public MainWindow()
         {
+            //0 would be indice of chart area you wish to Change, Color.ColorYouWant
+            
             InitializeComponent();
+            for (int i=0; i<10; i++)
+            {
+                chart1.Series["Series1"].Points.AddXY(i, i*100);
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                chart4.Series["Series1"].Points.AddXY(i, i*i+50);
+            }
+
+
             homePanel.SetBounds(0,0, 930, 627);
             homePanel.Show();
             chartPanel.Hide();
