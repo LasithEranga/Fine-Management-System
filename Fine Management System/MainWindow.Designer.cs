@@ -29,35 +29,49 @@ namespace Fine_Management_System
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.settingsBtn = new System.Windows.Forms.PictureBox();
-            this.reportBtn = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.chartBtn = new System.Windows.Forms.PictureBox();
-            this.homeBtn = new System.Windows.Forms.PictureBox();
             this.windowPanel = new System.Windows.Forms.Panel();
             this.settingsPanel = new System.Windows.Forms.Panel();
-            this.help = new System.Windows.Forms.Panel();
-            this.theme = new System.Windows.Forms.Panel();
-            this.notification = new System.Windows.Forms.Panel();
-            this.language = new System.Windows.Forms.Panel();
-            this.user = new System.Windows.Forms.Panel();
             this.homePanel = new System.Windows.Forms.Panel();
+            this.reportPanel = new System.Windows.Forms.Panel();
+            this.chartPanel = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.usersPanel = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.file = new System.Windows.Forms.ToolStripMenuItem();
+            this.export = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.parameters = new System.Windows.Forms.ToolStripMenuItem();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -80,28 +94,34 @@ namespace Fine_Management_System
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.reportPanel = new System.Windows.Forms.Panel();
-            this.chartPanel = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.usersPanel = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.saveAsPdfBtn = new System.Windows.Forms.Panel();
+            this.shareBtn = new System.Windows.Forms.Panel();
+            this.help = new System.Windows.Forms.Panel();
+            this.theme = new System.Windows.Forms.Panel();
+            this.notification = new System.Windows.Forms.Panel();
+            this.language = new System.Windows.Forms.Panel();
+            this.user = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.settingsBtn = new System.Windows.Forms.PictureBox();
+            this.reportBtn = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.chartBtn = new System.Windows.Forms.PictureBox();
+            this.homeBtn = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.settingsBtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reportBtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartBtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.homeBtn)).BeginInit();
             this.windowPanel.SuspendLayout();
             this.settingsPanel.SuspendLayout();
             this.homePanel.SuspendLayout();
+            this.reportPanel.SuspendLayout();
+            this.chartPanel.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart4)).BeginInit();
             this.panel9.SuspendLayout();
@@ -114,10 +134,12 @@ namespace Fine_Management_System
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.chartPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homeBtn)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -146,79 +168,14 @@ namespace Fine_Management_System
             this.panel2.Size = new System.Drawing.Size(61, 626);
             this.panel2.TabIndex = 1;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(13, 567);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(37, 38);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox6.TabIndex = 7;
-            this.pictureBox6.TabStop = false;
-            // 
-            // settingsBtn
-            // 
-            this.settingsBtn.Image = ((System.Drawing.Image)(resources.GetObject("settingsBtn.Image")));
-            this.settingsBtn.Location = new System.Drawing.Point(12, 324);
-            this.settingsBtn.Name = "settingsBtn";
-            this.settingsBtn.Size = new System.Drawing.Size(36, 35);
-            this.settingsBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.settingsBtn.TabIndex = 3;
-            this.settingsBtn.TabStop = false;
-            this.settingsBtn.Click += new System.EventHandler(this.SettingsBtnClick);
-            // 
-            // reportBtn
-            // 
-            this.reportBtn.Image = ((System.Drawing.Image)(resources.GetObject("reportBtn.Image")));
-            this.reportBtn.Location = new System.Drawing.Point(12, 166);
-            this.reportBtn.Name = "reportBtn";
-            this.reportBtn.Size = new System.Drawing.Size(34, 35);
-            this.reportBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.reportBtn.TabIndex = 4;
-            this.reportBtn.TabStop = false;
-            this.reportBtn.Click += new System.EventHandler(this.reportBtnClick);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 242);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // chartBtn
-            // 
-            this.chartBtn.Image = ((System.Drawing.Image)(resources.GetObject("chartBtn.Image")));
-            this.chartBtn.Location = new System.Drawing.Point(12, 94);
-            this.chartBtn.Name = "chartBtn";
-            this.chartBtn.Size = new System.Drawing.Size(37, 34);
-            this.chartBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.chartBtn.TabIndex = 5;
-            this.chartBtn.TabStop = false;
-            this.chartBtn.Click += new System.EventHandler(this.ChartBtnClick);
-            // 
-            // homeBtn
-            // 
-            this.homeBtn.ErrorImage = ((System.Drawing.Image)(resources.GetObject("homeBtn.ErrorImage")));
-            this.homeBtn.Image = global::Fine_Management_System.Properties.Resources.homeBlue;
-            this.homeBtn.Location = new System.Drawing.Point(13, 25);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Size = new System.Drawing.Size(33, 32);
-            this.homeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.homeBtn.TabIndex = 6;
-            this.homeBtn.TabStop = false;
-            this.homeBtn.Click += new System.EventHandler(this.HomeBtnClick);
-            // 
             // windowPanel
             // 
             this.windowPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(21)))), ((int)(((byte)(25)))));
-            this.windowPanel.Controls.Add(this.settingsPanel);
-            this.windowPanel.Controls.Add(this.homePanel);
-            this.windowPanel.Controls.Add(this.reportPanel);
-            this.windowPanel.Controls.Add(this.chartPanel);
             this.windowPanel.Controls.Add(this.usersPanel);
+            this.windowPanel.Controls.Add(this.reportPanel);
+            this.windowPanel.Controls.Add(this.settingsPanel);
+            this.windowPanel.Controls.Add(this.chartPanel);
+            this.windowPanel.Controls.Add(this.homePanel);
             this.windowPanel.Location = new System.Drawing.Point(70, 36);
             this.windowPanel.Name = "windowPanel";
             this.windowPanel.Size = new System.Drawing.Size(930, 627);
@@ -232,55 +189,10 @@ namespace Fine_Management_System
             this.settingsPanel.Controls.Add(this.notification);
             this.settingsPanel.Controls.Add(this.language);
             this.settingsPanel.Controls.Add(this.user);
-            this.settingsPanel.Location = new System.Drawing.Point(32, 324);
+            this.settingsPanel.Location = new System.Drawing.Point(26, 520);
             this.settingsPanel.Name = "settingsPanel";
-            this.settingsPanel.Size = new System.Drawing.Size(516, 264);
+            this.settingsPanel.Size = new System.Drawing.Size(150, 74);
             this.settingsPanel.TabIndex = 7;
-            // 
-            // help
-            // 
-            this.help.BackgroundImage = global::Fine_Management_System.Properties.Resources.help;
-            this.help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.help.Location = new System.Drawing.Point(363, 279);
-            this.help.Name = "help";
-            this.help.Size = new System.Drawing.Size(212, 170);
-            this.help.TabIndex = 4;
-            // 
-            // theme
-            // 
-            this.theme.BackgroundImage = global::Fine_Management_System.Properties.Resources.theme;
-            this.theme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.theme.Location = new System.Drawing.Point(55, 279);
-            this.theme.Name = "theme";
-            this.theme.Size = new System.Drawing.Size(212, 170);
-            this.theme.TabIndex = 3;
-            // 
-            // notification
-            // 
-            this.notification.BackgroundImage = global::Fine_Management_System.Properties.Resources.notification;
-            this.notification.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.notification.Location = new System.Drawing.Point(662, 56);
-            this.notification.Name = "notification";
-            this.notification.Size = new System.Drawing.Size(212, 170);
-            this.notification.TabIndex = 2;
-            // 
-            // language
-            // 
-            this.language.BackgroundImage = global::Fine_Management_System.Properties.Resources.language;
-            this.language.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.language.Location = new System.Drawing.Point(363, 56);
-            this.language.Name = "language";
-            this.language.Size = new System.Drawing.Size(212, 170);
-            this.language.TabIndex = 1;
-            // 
-            // user
-            // 
-            this.user.BackgroundImage = global::Fine_Management_System.Properties.Resources.user;
-            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.user.Location = new System.Drawing.Point(55, 56);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(212, 170);
-            this.user.TabIndex = 0;
             // 
             // homePanel
             // 
@@ -293,10 +205,261 @@ namespace Fine_Management_System
             this.homePanel.Controls.Add(this.panel5);
             this.homePanel.Controls.Add(this.panel4);
             this.homePanel.Controls.Add(this.panel3);
-            this.homePanel.Location = new System.Drawing.Point(19, 13);
+            this.homePanel.Location = new System.Drawing.Point(216, 520);
             this.homePanel.Name = "homePanel";
-            this.homePanel.Size = new System.Drawing.Size(507, 302);
+            this.homePanel.Size = new System.Drawing.Size(167, 83);
             this.homePanel.TabIndex = 3;
+            // 
+            // reportPanel
+            // 
+            this.reportPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            this.reportPanel.Controls.Add(this.panel13);
+            this.reportPanel.Controls.Add(this.panel12);
+            this.reportPanel.Controls.Add(this.dateTimePicker2);
+            this.reportPanel.Controls.Add(this.label13);
+            this.reportPanel.Controls.Add(this.label12);
+            this.reportPanel.Controls.Add(this.dateTimePicker1);
+            this.reportPanel.Controls.Add(this.panel11);
+            this.reportPanel.Controls.Add(this.panel1);
+            this.reportPanel.Controls.Add(this.richTextBox1);
+            this.reportPanel.Controls.Add(this.saveAsPdfBtn);
+            this.reportPanel.Controls.Add(this.shareBtn);
+            this.reportPanel.Location = new System.Drawing.Point(0, 0);
+            this.reportPanel.Name = "reportPanel";
+            this.reportPanel.Size = new System.Drawing.Size(158, 100);
+            this.reportPanel.TabIndex = 4;
+            // 
+            // chartPanel
+            // 
+            this.chartPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            this.chartPanel.Controls.Add(this.button6);
+            this.chartPanel.Controls.Add(this.button5);
+            this.chartPanel.Controls.Add(this.button4);
+            this.chartPanel.Controls.Add(this.button3);
+            this.chartPanel.Controls.Add(this.button2);
+            this.chartPanel.Location = new System.Drawing.Point(410, 535);
+            this.chartPanel.Name = "chartPanel";
+            this.chartPanel.Size = new System.Drawing.Size(96, 49);
+            this.chartPanel.TabIndex = 0;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(14, 11);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(257, 11);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(167, 55);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(124, 11);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(14, 66);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // usersPanel
+            // 
+            this.usersPanel.Location = new System.Drawing.Point(534, 533);
+            this.usersPanel.Name = "usersPanel";
+            this.usersPanel.Size = new System.Drawing.Size(89, 48);
+            this.usersPanel.TabIndex = 5;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label10.Location = new System.Drawing.Point(805, 10);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(52, 20);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "Lasith";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(81, 121);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(761, 366);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(198)))), ((int)(((byte)(143)))));
+            this.panel1.Controls.Add(this.menuStrip1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(668, 45);
+            this.panel1.TabIndex = 3;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.panel11.Controls.Add(this.panel14);
+            this.panel11.Controls.Add(this.textBox2);
+            this.panel11.Location = new System.Drawing.Point(668, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(262, 45);
+            this.panel11.TabIndex = 4;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(135, 68);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(138, 26);
+            this.dateTimePicker1.TabIndex = 5;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GrayText;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.file,
+            this.export,
+            this.parameters});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(668, 45);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // file
+            // 
+            this.file.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saveAsToolStripMenuItem});
+            this.file.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.file.Name = "file";
+            this.file.Size = new System.Drawing.Size(50, 41);
+            this.file.Text = "&File";
+            this.file.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
+            // 
+            // export
+            // 
+            this.export.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.export.Name = "export";
+            this.export.Size = new System.Drawing.Size(73, 41);
+            this.export.Text = "&Export";
+            // 
+            // saveAsToolStripMenuItem
+            // 
+            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
+            this.saveAsToolStripMenuItem.Text = "&save as";
+            // 
+            // parameters
+            // 
+            this.parameters.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parameters.Name = "parameters";
+            this.parameters.Size = new System.Drawing.Size(113, 41);
+            this.parameters.Text = "&Parameters";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(77, 73);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(50, 20);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "From";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(634, 72);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(29, 20);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "To";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(671, 68);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(138, 26);
+            this.dateTimePicker2.TabIndex = 8;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(58, 14);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(193, 22);
+            this.textBox2.TabIndex = 0;
+            this.textBox2.Text = "Search Here";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(921, 17);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(26, 10);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox8.TabIndex = 10;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(773, 6);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(26, 24);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox7.TabIndex = 8;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(968, 8);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(21, 19);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox10.TabIndex = 12;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // panel10
             // 
@@ -342,26 +505,26 @@ namespace Fine_Management_System
             this.chart4.BackImageTransparentColor = System.Drawing.Color.White;
             this.chart4.BackSecondaryColor = System.Drawing.Color.White;
             this.chart4.BorderlineColor = System.Drawing.Color.Black;
-            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            chartArea1.BorderColor = System.Drawing.Color.White;
-            chartArea1.Name = "ChartArea1";
-            this.chart4.ChartAreas.Add(chartArea1);
-            legend1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            legend1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            legend1.Name = "Legend1";
-            this.chart4.Legends.Add(legend1);
+            chartArea9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea9.BorderColor = System.Drawing.Color.White;
+            chartArea9.Name = "ChartArea1";
+            this.chart4.ChartAreas.Add(chartArea9);
+            legend9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            legend9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            legend9.Name = "Legend1";
+            this.chart4.Legends.Add(legend9);
             this.chart4.Location = new System.Drawing.Point(10, 54);
             this.chart4.Name = "chart4";
             this.chart4.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart4.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(218)))), ((int)(((byte)(72)))))};
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Color = System.Drawing.Color.Lime;
-            series1.LabelForeColor = System.Drawing.Color.White;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart4.Series.Add(series1);
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series9.Color = System.Drawing.Color.Lime;
+            series9.LabelForeColor = System.Drawing.Color.White;
+            series9.Legend = "Legend1";
+            series9.Name = "Series1";
+            this.chart4.Series.Add(series9);
             this.chart4.Size = new System.Drawing.Size(233, 102);
             this.chart4.TabIndex = 7;
             this.chart4.Text = "chart4";
@@ -417,26 +580,26 @@ namespace Fine_Management_System
             this.chart3.BackImageTransparentColor = System.Drawing.Color.White;
             this.chart3.BackSecondaryColor = System.Drawing.Color.White;
             this.chart3.BorderlineColor = System.Drawing.Color.Black;
-            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            chartArea2.BorderColor = System.Drawing.Color.White;
-            chartArea2.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea2);
-            legend2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            legend2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            legend2.Name = "Legend1";
-            this.chart3.Legends.Add(legend2);
+            chartArea10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea10.BorderColor = System.Drawing.Color.White;
+            chartArea10.Name = "ChartArea1";
+            this.chart3.ChartAreas.Add(chartArea10);
+            legend10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            legend10.ForeColor = System.Drawing.Color.WhiteSmoke;
+            legend10.Name = "Legend1";
+            this.chart3.Legends.Add(legend10);
             this.chart3.Location = new System.Drawing.Point(10, 6);
             this.chart3.Name = "chart3";
             this.chart3.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart3.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(218)))), ((int)(((byte)(72)))))};
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Color = System.Drawing.Color.Lime;
-            series2.LabelForeColor = System.Drawing.Color.White;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart3.Series.Add(series2);
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series10.Color = System.Drawing.Color.Lime;
+            series10.LabelForeColor = System.Drawing.Color.White;
+            series10.Legend = "Legend1";
+            series10.Name = "Series1";
+            this.chart3.Series.Add(series10);
             this.chart3.Size = new System.Drawing.Size(326, 150);
             this.chart3.TabIndex = 6;
             this.chart3.Text = "chart3";
@@ -453,17 +616,17 @@ namespace Fine_Management_System
             // 
             // chart2
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart2.Legends.Add(legend3);
+            chartArea11.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea11);
+            legend11.Name = "Legend1";
+            this.chart2.Legends.Add(legend11);
             this.chart2.Location = new System.Drawing.Point(10, 3);
             this.chart2.Name = "chart2";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart2.Series.Add(series3);
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series11.Legend = "Legend1";
+            series11.Name = "Series1";
+            this.chart2.Series.Add(series11);
             this.chart2.Size = new System.Drawing.Size(233, 190);
             this.chart2.TabIndex = 0;
             this.chart2.Text = "chart2";
@@ -486,26 +649,26 @@ namespace Fine_Management_System
             this.chart1.BackImageTransparentColor = System.Drawing.Color.White;
             this.chart1.BackSecondaryColor = System.Drawing.Color.White;
             this.chart1.BorderlineColor = System.Drawing.Color.Black;
-            chartArea4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            chartArea4.BorderColor = System.Drawing.Color.White;
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            legend4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            chartArea12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            chartArea12.BorderColor = System.Drawing.Color.White;
+            chartArea12.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea12);
+            legend12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
+            legend12.ForeColor = System.Drawing.Color.WhiteSmoke;
+            legend12.Name = "Legend1";
+            this.chart1.Legends.Add(legend12);
             this.chart1.Location = new System.Drawing.Point(12, 10);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart1.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(218)))), ((int)(((byte)(72)))))};
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Color = System.Drawing.Color.Lime;
-            series4.LabelForeColor = System.Drawing.Color.White;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chart1.Series.Add(series4);
+            series12.ChartArea = "ChartArea1";
+            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series12.Color = System.Drawing.Color.Lime;
+            series12.LabelForeColor = System.Drawing.Color.White;
+            series12.Legend = "Legend1";
+            series12.Name = "Series1";
+            this.chart1.Series.Add(series12);
             this.chart1.Size = new System.Drawing.Size(537, 183);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
@@ -615,119 +778,160 @@ namespace Fine_Management_System
             this.label5.TabIndex = 3;
             this.label5.Text = "65465";
             // 
-            // reportPanel
+            // panel13
             // 
-            this.reportPanel.Location = new System.Drawing.Point(359, 464);
-            this.reportPanel.Name = "reportPanel";
-            this.reportPanel.Size = new System.Drawing.Size(117, 56);
-            this.reportPanel.TabIndex = 4;
+            this.panel13.BackgroundImage = global::Fine_Management_System.Properties.Resources.calander;
+            this.panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel13.Location = new System.Drawing.Point(816, 68);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(26, 26);
+            this.panel13.TabIndex = 10;
             // 
-            // chartPanel
+            // panel12
             // 
-            this.chartPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(34)))));
-            this.chartPanel.Controls.Add(this.button6);
-            this.chartPanel.Controls.Add(this.button5);
-            this.chartPanel.Controls.Add(this.button4);
-            this.chartPanel.Controls.Add(this.button3);
-            this.chartPanel.Controls.Add(this.button2);
-            this.chartPanel.Location = new System.Drawing.Point(487, 370);
-            this.chartPanel.Name = "chartPanel";
-            this.chartPanel.Size = new System.Drawing.Size(96, 49);
-            this.chartPanel.TabIndex = 0;
+            this.panel12.BackgroundImage = global::Fine_Management_System.Properties.Resources.calander;
+            this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel12.Location = new System.Drawing.Point(279, 68);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(26, 26);
+            this.panel12.TabIndex = 9;
             // 
-            // button6
+            // panel14
             // 
-            this.button6.Location = new System.Drawing.Point(14, 11);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.panel14.BackgroundImage = global::Fine_Management_System.Properties.Resources.search;
+            this.panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel14.Location = new System.Drawing.Point(20, 10);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(26, 26);
+            this.panel14.TabIndex = 11;
             // 
-            // button5
+            // saveAsPdfBtn
             // 
-            this.button5.Location = new System.Drawing.Point(257, 11);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.saveAsPdfBtn.BackgroundImage = global::Fine_Management_System.Properties.Resources.save_as_pdf_new;
+            this.saveAsPdfBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.saveAsPdfBtn.Location = new System.Drawing.Point(551, 520);
+            this.saveAsPdfBtn.Name = "saveAsPdfBtn";
+            this.saveAsPdfBtn.Size = new System.Drawing.Size(192, 50);
+            this.saveAsPdfBtn.TabIndex = 1;
             // 
-            // button4
+            // shareBtn
             // 
-            this.button4.Location = new System.Drawing.Point(167, 55);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.shareBtn.BackgroundImage = global::Fine_Management_System.Properties.Resources.share_new;
+            this.shareBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.shareBtn.Location = new System.Drawing.Point(189, 520);
+            this.shareBtn.Name = "shareBtn";
+            this.shareBtn.Size = new System.Drawing.Size(149, 50);
+            this.shareBtn.TabIndex = 0;
             // 
-            // button3
+            // help
             // 
-            this.button3.Location = new System.Drawing.Point(124, 11);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.help.BackgroundImage = global::Fine_Management_System.Properties.Resources.help;
+            this.help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.help.Location = new System.Drawing.Point(363, 279);
+            this.help.Name = "help";
+            this.help.Size = new System.Drawing.Size(212, 170);
+            this.help.TabIndex = 4;
             // 
-            // button2
+            // theme
             // 
-            this.button2.Location = new System.Drawing.Point(14, 66);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.theme.BackgroundImage = global::Fine_Management_System.Properties.Resources.theme;
+            this.theme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.theme.Location = new System.Drawing.Point(55, 279);
+            this.theme.Name = "theme";
+            this.theme.Size = new System.Drawing.Size(212, 170);
+            this.theme.TabIndex = 3;
             // 
-            // usersPanel
+            // notification
             // 
-            this.usersPanel.Location = new System.Drawing.Point(586, 472);
-            this.usersPanel.Name = "usersPanel";
-            this.usersPanel.Size = new System.Drawing.Size(89, 48);
-            this.usersPanel.TabIndex = 5;
+            this.notification.BackgroundImage = global::Fine_Management_System.Properties.Resources.notification;
+            this.notification.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.notification.Location = new System.Drawing.Point(662, 56);
+            this.notification.Name = "notification";
+            this.notification.Size = new System.Drawing.Size(212, 170);
+            this.notification.TabIndex = 2;
             // 
-            // label10
+            // language
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label10.Location = new System.Drawing.Point(805, 10);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 20);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "Lasith";
+            this.language.BackgroundImage = global::Fine_Management_System.Properties.Resources.language;
+            this.language.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.language.Location = new System.Drawing.Point(363, 56);
+            this.language.Name = "language";
+            this.language.Size = new System.Drawing.Size(212, 170);
+            this.language.TabIndex = 1;
             // 
-            // pictureBox8
+            // user
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(921, 17);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(26, 10);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox8.TabIndex = 10;
-            this.pictureBox8.TabStop = false;
+            this.user.BackgroundImage = global::Fine_Management_System.Properties.Resources.user;
+            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.user.Location = new System.Drawing.Point(55, 56);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(212, 170);
+            this.user.TabIndex = 0;
             // 
-            // pictureBox7
+            // pictureBox6
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(773, 6);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(26, 24);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(13, 567);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(37, 38);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox6.TabIndex = 7;
+            this.pictureBox6.TabStop = false;
             // 
-            // pictureBox10
+            // settingsBtn
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(968, 8);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(21, 19);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox10.TabIndex = 12;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
+            this.settingsBtn.Image = ((System.Drawing.Image)(resources.GetObject("settingsBtn.Image")));
+            this.settingsBtn.Location = new System.Drawing.Point(12, 324);
+            this.settingsBtn.Name = "settingsBtn";
+            this.settingsBtn.Size = new System.Drawing.Size(36, 35);
+            this.settingsBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.settingsBtn.TabIndex = 3;
+            this.settingsBtn.TabStop = false;
+            this.settingsBtn.Click += new System.EventHandler(this.SettingsBtnClick);
+            // 
+            // reportBtn
+            // 
+            this.reportBtn.Image = ((System.Drawing.Image)(resources.GetObject("reportBtn.Image")));
+            this.reportBtn.Location = new System.Drawing.Point(12, 166);
+            this.reportBtn.Name = "reportBtn";
+            this.reportBtn.Size = new System.Drawing.Size(34, 35);
+            this.reportBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.reportBtn.TabIndex = 4;
+            this.reportBtn.TabStop = false;
+            this.reportBtn.Click += new System.EventHandler(this.reportBtnClick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(13, 242);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 34);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // chartBtn
+            // 
+            this.chartBtn.Image = ((System.Drawing.Image)(resources.GetObject("chartBtn.Image")));
+            this.chartBtn.Location = new System.Drawing.Point(12, 94);
+            this.chartBtn.Name = "chartBtn";
+            this.chartBtn.Size = new System.Drawing.Size(37, 34);
+            this.chartBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.chartBtn.TabIndex = 5;
+            this.chartBtn.TabStop = false;
+            this.chartBtn.Click += new System.EventHandler(this.ChartBtnClick);
+            // 
+            // homeBtn
+            // 
+            this.homeBtn.ErrorImage = ((System.Drawing.Image)(resources.GetObject("homeBtn.ErrorImage")));
+            this.homeBtn.Image = global::Fine_Management_System.Properties.Resources.homeBlue;
+            this.homeBtn.Location = new System.Drawing.Point(13, 25);
+            this.homeBtn.Name = "homeBtn";
+            this.homeBtn.Size = new System.Drawing.Size(33, 32);
+            this.homeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.homeBtn.TabIndex = 6;
+            this.homeBtn.TabStop = false;
+            this.homeBtn.Click += new System.EventHandler(this.HomeBtnClick);
             // 
             // MainWindow
             // 
@@ -745,20 +949,27 @@ namespace Fine_Management_System
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fine Payment Management System";
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.settingsBtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reportBtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartBtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.homeBtn)).EndInit();
             this.windowPanel.ResumeLayout(false);
             this.settingsPanel.ResumeLayout(false);
             this.homePanel.ResumeLayout(false);
+            this.reportPanel.ResumeLayout(false);
+            this.reportPanel.PerformLayout();
+            this.chartPanel.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart4)).EndInit();
@@ -776,10 +987,12 @@ namespace Fine_Management_System
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.chartPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.settingsBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homeBtn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -836,5 +1049,23 @@ namespace Fine_Management_System
         private System.Windows.Forms.Panel notification;
         private System.Windows.Forms.Panel language;
         private System.Windows.Forms.Panel user;
+        private System.Windows.Forms.Panel shareBtn;
+        private System.Windows.Forms.Panel saveAsPdfBtn;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem file;
+        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem export;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ToolStripMenuItem parameters;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel panel14;
     }
 }

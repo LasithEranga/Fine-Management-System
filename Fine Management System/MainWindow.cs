@@ -69,5 +69,20 @@ namespace Fine_Management_System
             usersPanel.Hide();
             settingsPanel.Hide();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
