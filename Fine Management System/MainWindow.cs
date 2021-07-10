@@ -45,10 +45,5 @@ namespace Fine_Management_System
         {
             
         }
-
-        private void settingsPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
