@@ -8,8 +8,8 @@ namespace Fine_Management_System
         public MainWindow()
         {
             InitializeComponent();
-            home.SetBounds(0,0, 894, 552);
-            home.Show();
+            homePanel.SetBounds(0,0, 930, 627);
+            homePanel.Show();
             chart.Hide();
            // settingsPanel.SetBounds(0, 0, 894, 552);
            // settingsPanel.Show();
@@ -22,8 +22,8 @@ namespace Fine_Management_System
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            home.Hide();
-            chart.SetBounds(0, 0, 894, 552);
+            homePanel.Hide();
+            chart.SetBounds(0, 0, 930, 627);
             chart.Show();
             pictureBox5.Image = Properties.Resources.fineX;
         }
@@ -31,7 +31,7 @@ namespace Fine_Management_System
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             chart.Hide();
-            home.Show();
+            homePanel.Show();
             pictureBox5.Image = Properties.Resources.homeBlue;
         }
 
@@ -41,14 +41,5 @@ namespace Fine_Management_System
             ControlExtension.Draggable(this, true);
         }
 
-        private void drag(object sender, MouseEventArgs e)
-        {
-            
-        }
-
-        private void settingsPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
