@@ -8,11 +8,13 @@ namespace Fine_Management_System
         public MainWindow()
         {
             InitializeComponent();
-            home.SetBounds(0,0, 894, 552);
-            home.Hide();
-            chart.Hide();
-            settingsPanel.SetBounds(0, 0, 894, 552);
-            settingsPanel.Show();
+            homePanel.SetBounds(0,0, 930, 627);
+            homePanel.Show();
+            chartPanel.Hide();
+            reportPanel.Hide();
+            usersPanel.Hide();
+            settingsPanel.Hide();
+
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
@@ -20,30 +22,52 @@ namespace Fine_Management_System
             this.Hide();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            home.Hide();
-            chart.SetBounds(0, 0, 894, 552);
-            chart.Show();
-            pictureBox5.Image = Properties.Resources.fineX;
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            chart.Hide();
-            home.Show();
-            pictureBox5.Image = Properties.Resources.homeBlue;
-        }
-
-
         private void MainWindow_Load(object sender, EventArgs e)
         {
             ControlExtension.Draggable(this, true);
         }
 
-        private void drag(object sender, MouseEventArgs e)
+        private void HomeBtnClick(object sender, EventArgs e)
         {
-            
+            homePanel.SetBounds(0, 0, 930, 627);
+            homePanel.Show();
+            chartPanel.Hide();
+            reportPanel.Hide();
+            usersPanel.Hide();
+            settingsPanel.Hide();
+            homeBtn.Image = Properties.Resources.homeBlue;
+        }
+
+        private void ChartBtnClick(object sender, EventArgs e)
+        {
+            chartPanel.SetBounds(0, 0, 930, 627);
+            homePanel.Hide();
+            chartPanel.Show();
+            reportPanel.Hide();
+            usersPanel.Hide();
+            settingsPanel.Hide();
+
+        }
+
+        private void SettingsBtnClick(object sender, EventArgs e)
+        {
+            settingsPanel.SetBounds(0, 0, 930, 627);
+            homePanel.Hide();
+            chartPanel.Hide();
+            reportPanel.Hide();
+            usersPanel.Hide();
+            settingsPanel.Show();
+
+        }
+
+        private void reportBtnClick(object sender, EventArgs e)
+        {
+            reportPanel.SetBounds(0, 0, 930, 627);
+            homePanel.Hide();
+            chartPanel.Hide();
+            reportPanel.Show();
+            usersPanel.Hide();
+            settingsPanel.Hide();
         }
     }
 }
