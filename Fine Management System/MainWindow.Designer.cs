@@ -30,9 +30,9 @@ namespace Fine_Management_System
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -44,9 +44,11 @@ namespace Fine_Management_System
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.windowPanel = new System.Windows.Forms.Panel();
             this.settingsPanel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.usersPanel = new System.Windows.Forms.Panel();
-            this.reportPanel = new System.Windows.Forms.Panel();
+            this.help = new System.Windows.Forms.Panel();
+            this.theme = new System.Windows.Forms.Panel();
+            this.notification = new System.Windows.Forms.Panel();
+            this.language = new System.Windows.Forms.Panel();
+            this.user = new System.Windows.Forms.Panel();
             this.chart = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -59,6 +61,12 @@ namespace Fine_Management_System
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.reportPanel = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.share = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -74,6 +82,7 @@ namespace Fine_Management_System
             this.chart.SuspendLayout();
             this.home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.reportPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -185,7 +194,6 @@ namespace Fine_Management_System
             // 
             this.windowPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(21)))), ((int)(((byte)(25)))));
             this.windowPanel.Controls.Add(this.settingsPanel);
-            this.windowPanel.Controls.Add(this.usersPanel);
             this.windowPanel.Controls.Add(this.reportPanel);
             this.windowPanel.Controls.Add(this.chart);
             this.windowPanel.Controls.Add(this.home);
@@ -196,34 +204,62 @@ namespace Fine_Management_System
             // 
             // settingsPanel
             // 
-            this.settingsPanel.Controls.Add(this.panel1);
-            this.settingsPanel.Location = new System.Drawing.Point(115, 321);
+            this.settingsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(21)))), ((int)(((byte)(25)))));
+            this.settingsPanel.Controls.Add(this.help);
+            this.settingsPanel.Controls.Add(this.theme);
+            this.settingsPanel.Controls.Add(this.notification);
+            this.settingsPanel.Controls.Add(this.language);
+            this.settingsPanel.Controls.Add(this.user);
+            this.settingsPanel.Location = new System.Drawing.Point(642, 214);
             this.settingsPanel.Name = "settingsPanel";
-            this.settingsPanel.Size = new System.Drawing.Size(282, 213);
+            this.settingsPanel.Size = new System.Drawing.Size(156, 122);
             this.settingsPanel.TabIndex = 6;
+            this.settingsPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingsPanel_Paint);
             // 
-            // panel1
+            // help
             // 
-            this.panel1.BackgroundImage = global::Fine_Management_System.Properties.Resources.Group_211;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(32, 32);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(134, 84);
-            this.panel1.TabIndex = 0;
+            this.help.BackgroundImage = global::Fine_Management_System.Properties.Resources.help;
+            this.help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.help.Location = new System.Drawing.Point(363, 279);
+            this.help.Name = "help";
+            this.help.Size = new System.Drawing.Size(212, 170);
+            this.help.TabIndex = 4;
             // 
-            // usersPanel
+            // theme
             // 
-            this.usersPanel.Location = new System.Drawing.Point(351, 256);
-            this.usersPanel.Name = "usersPanel";
-            this.usersPanel.Size = new System.Drawing.Size(89, 48);
-            this.usersPanel.TabIndex = 5;
+            this.theme.BackgroundImage = global::Fine_Management_System.Properties.Resources.theme;
+            this.theme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.theme.Location = new System.Drawing.Point(55, 279);
+            this.theme.Name = "theme";
+            this.theme.Size = new System.Drawing.Size(212, 170);
+            this.theme.TabIndex = 3;
             // 
-            // reportPanel
+            // notification
             // 
-            this.reportPanel.Location = new System.Drawing.Point(276, 67);
-            this.reportPanel.Name = "reportPanel";
-            this.reportPanel.Size = new System.Drawing.Size(200, 100);
-            this.reportPanel.TabIndex = 4;
+            this.notification.BackgroundImage = global::Fine_Management_System.Properties.Resources.notification;
+            this.notification.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.notification.Location = new System.Drawing.Point(662, 56);
+            this.notification.Name = "notification";
+            this.notification.Size = new System.Drawing.Size(212, 170);
+            this.notification.TabIndex = 2;
+            // 
+            // language
+            // 
+            this.language.BackgroundImage = global::Fine_Management_System.Properties.Resources.language;
+            this.language.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.language.Location = new System.Drawing.Point(363, 56);
+            this.language.Name = "language";
+            this.language.Size = new System.Drawing.Size(212, 170);
+            this.language.TabIndex = 1;
+            // 
+            // user
+            // 
+            this.user.BackgroundImage = global::Fine_Management_System.Properties.Resources.user;
+            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.user.Location = new System.Drawing.Point(55, 56);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(212, 170);
+            this.user.TabIndex = 0;
             // 
             // chart
             // 
@@ -293,21 +329,21 @@ namespace Fine_Management_System
             this.home.Controls.Add(this.button1);
             this.home.Location = new System.Drawing.Point(19, 13);
             this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(86, 41);
+            this.home.Size = new System.Drawing.Size(88, 44);
             this.home.TabIndex = 3;
             // 
             // chart1
             // 
-            chartArea9.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea9);
-            legend9.Name = "Legend1";
-            this.chart1.Legends.Add(legend9);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(201, 43);
             this.chart1.Name = "chart1";
-            series9.ChartArea = "ChartArea1";
-            series9.Legend = "Legend1";
-            series9.Name = "Series1";
-            this.chart1.Series.Add(series9);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(300, 300);
             this.chart1.TabIndex = 5;
             this.chart1.Text = "chart1";
@@ -347,6 +383,59 @@ namespace Fine_Management_System
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // reportPanel
+            // 
+            this.reportPanel.Controls.Add(this.panel4);
+            this.reportPanel.Controls.Add(this.richTextBox1);
+            this.reportPanel.Controls.Add(this.panel3);
+            this.reportPanel.Controls.Add(this.share);
+            this.reportPanel.Controls.Add(this.panel1);
+            this.reportPanel.Location = new System.Drawing.Point(380, 347);
+            this.reportPanel.Name = "reportPanel";
+            this.reportPanel.Size = new System.Drawing.Size(156, 116);
+            this.reportPanel.TabIndex = 4;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(668, 8);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(262, 45);
+            this.panel4.TabIndex = 6;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(146, 184);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(522, 304);
+            this.richTextBox1.TabIndex = 5;
+            this.richTextBox1.Text = "";
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::Fine_Management_System.Properties.Resources.save_as_pdf_new;
+            this.panel3.Location = new System.Drawing.Point(476, 537);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(192, 50);
+            this.panel3.TabIndex = 4;
+            // 
+            // share
+            // 
+            this.share.BackgroundImage = global::Fine_Management_System.Properties.Resources.share_new;
+            this.share.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.share.Location = new System.Drawing.Point(213, 537);
+            this.share.Name = "share";
+            this.share.Size = new System.Drawing.Size(149, 50);
+            this.share.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(198)))), ((int)(((byte)(143)))));
+            this.panel1.Location = new System.Drawing.Point(0, 8);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(668, 45);
+            this.panel1.TabIndex = 2;
             // 
             // pictureBox8
             // 
@@ -410,6 +499,7 @@ namespace Fine_Management_System
             this.chart.ResumeLayout(false);
             this.home.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.reportPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -443,10 +533,18 @@ namespace Fine_Management_System
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Panel settingsPanel;
-        private System.Windows.Forms.Panel usersPanel;
         private System.Windows.Forms.Panel reportPanel;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Panel user;
+        private System.Windows.Forms.Panel settingsPanel;
+        private System.Windows.Forms.Panel help;
+        private System.Windows.Forms.Panel theme;
+        private System.Windows.Forms.Panel notification;
+        private System.Windows.Forms.Panel language;
+        private System.Windows.Forms.Panel share;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
